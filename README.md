@@ -1,5 +1,9 @@
 # james
 A simple update guard for your own projects
+
+> [!CAUTION]
+> Make sure that the target section is stateless. In the process of updating your service, james does a "fresh install" of your codebase. Therefore encapsulate data/json/etc. to not be affected by the update. Use at your own risk :).
+
 ![Unbenanntes_Projekt](https://github.com/matteokosina/james/assets/74454734/665722b7-da5f-4d34-a01a-fd5e330dcd4d)
 
 Create a james.txt file and define your desired updating behaviour (feature is coming soon).
