@@ -1,0 +1,6 @@
+url/to/repo
+path/to/service
+command
+command
+command
+...
