@@ -69,7 +69,7 @@ def run_commands(commands):
 
 if __name__ == "__main__":
     repo, target_service, commands = read_james_file('james.txt')
-    print("Update-repo:", repo)
-    print("Target Service:", target_service)
+    print("Update source:", repo)
+    print("Service to update:", target_service)
     clean_and_clone_repo(target_service, repo)
     run_commands(commands)
