@@ -64,7 +64,7 @@ def run_commands(commands):
     except Exception as e:
         print(f"Error: {e}")
       
-    print("Thank you for your visit - james")
+    print("Thank you for your visit - yours james")
         
 
 if __name__ == "__main__":
