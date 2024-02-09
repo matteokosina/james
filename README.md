@@ -1,4 +1,4 @@
-# james
+# james-updater
 A simple update guard for your own projects
 
 > [!CAUTION]
